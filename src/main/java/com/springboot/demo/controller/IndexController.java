@@ -42,9 +42,9 @@ public class IndexController {
     @RequestMapping("addUsers")
     public boolean addUsers(ModelMap modelMap, HttpServletRequest request) {
         Users users = new Users();
-        users.setNickName("wangqi");
+        users.setNickName("xiaoming");
         users.setPassword("1234");
-        users.setUsername("wang");
+        users.setUsername("li");
         users.setUserSex("man");
         return usersService.addUser(users);
     }
